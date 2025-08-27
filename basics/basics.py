@@ -13,3 +13,10 @@ fruits = ["apple", "banana", "cherry"]
 print(fruits[0])    # Accessing list element        
 fruits.append("date") # Adding an element to the list
 print(fruits)
+
+#indentation
+if x > 0:
+    print("x is positive")
+else:
+    print("x is non-positive")
+    
