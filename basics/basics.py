@@ -19,4 +19,12 @@ if x > 0:
     print("x is positive")
 else:
     print("x is non-positive")
-    
+
+# Loops
+for fruit in fruits:
+    print(fruit)    
+
+i = 0
+while i < 5:
+    print(i)
+    i += 1
