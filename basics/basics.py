@@ -36,3 +36,8 @@ for i in range(10):
     if i % 2 == 0:
         continue  # Skip even numbers
     print(i)  # This will print only odd numbers less than 5
+
+# Functions
+def greet(name):
+    return f"Hello, {name}!"
+print(greet("Bob"))
