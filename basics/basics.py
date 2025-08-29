@@ -41,3 +41,11 @@ for i in range(10):
 def greet(name):
     return f"Hello, {name}!"
 print(greet("Bob"))
+
+# Classes
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        return "Woof!"  
