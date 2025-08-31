@@ -48,4 +48,9 @@ class Dog:
         self.name = name
 
     def bark(self):
-        return "Woof!"  
+        return "Woof!"
+    
+#instance
+my_dog = Dog("Buddy")
+print(my_dog.name)
+print(my_dog.bark())
