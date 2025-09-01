@@ -21,3 +21,15 @@ b = 2.5              # Float
 text = "Python"      # String
 is_active = False    # Boolean
 print(a, b, text, is_active)
+
+#lists
+colors = ["red", "green", "blue"]
+print(colors[1])     # Accessing list element
+# another declare list and add element
+colors.append("yellow") # Adding an element to the list
+print(colors)
+#indentation
+if a > 5:
+    print("a is greater than 5")
+else:
+    print("a is 5 or less")
