@@ -10,3 +10,14 @@ class Person:
 #instance
 person1 = Person("Alice", 30)
 print(person1.greet())
+
+#print
+print("Review Complete!")
+# Review of Python Basics
+
+#variables and data types
+a = 10               # Integer
+b = 2.5              # Float
+text = "Python"      # String
+is_active = False    # Boolean
+print(a, b, text, is_active)
