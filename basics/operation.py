@@ -21,3 +21,20 @@ a += 2  # a = a + 2
 b *= 3  # b = b * 3 
 print("Updated a:", a)
 print("Updated b:", b)          
+
+# Comparison Operations
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a < b:", a < b)
+print("a <= b:", a <= b)
+print("a > b:", a > b)
+print("a >= b:", a >= b)
+
+# Logical Operations
+x = True
+y = False
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)      
+
+# Review of Python Basics
