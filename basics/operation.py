@@ -17,8 +17,8 @@ print("Modulus:", mod_result)
 print("Exponentiation:", exp_result)
 
 # Assignment Operations
-a += 2  # a = a + 2
-b *= 3  # b = b * 3 
+a += 2  
+b *= 3  
 print("Updated a:", a)
 print("Updated b:", b)          
 
