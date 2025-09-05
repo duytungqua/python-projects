@@ -17,3 +17,6 @@ power(2, 3)
 #lambda function
 square = lambda x: x * x
 square(5)
+
+# Review of Python Basics
+print("Function module loaded.")
