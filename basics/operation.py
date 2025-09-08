@@ -50,3 +50,10 @@ print("b % a =", b % a)
 print("a ** 2 =", a ** 2)
 
 print("Floor Division:", a // 3)  
+
+#exponentiation 
+
+n = 10
+ex = 3
+print(f"{n} raised to the power of {ex} is {n ** ex}")
+print(f"Square root of {n} is {n ** 0.5}")
