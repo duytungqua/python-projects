@@ -57,3 +57,11 @@ n = 10
 ex = 3
 print(f"{n} raised to the power of {ex} is {n ** ex}")
 print(f"Square root of {n} is {n ** 0.5}")
+
+#Assignment
+a = 5
+b = 10
+a += 2 # a = a + 2
+b *= 3 # b = b * 3
+print("Updated a:", a)
+print("Updated b:", b)
