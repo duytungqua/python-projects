@@ -13,4 +13,11 @@ for i in range(10):
         continue  # Skip even numbers
     print(i)  # This will print only odd numbers less than 5
 
-    
+
+#while loop with else
+count = 0
+while count < 3:
+    print("Count:", count)
+    count += 1
+else:
+    print("Loop ended normally.")   

@@ -9,3 +9,4 @@ else:
 #ternaty operator:
 result = "Greater than 5" if a > 5 else "5 or less"
 print(result)
+
