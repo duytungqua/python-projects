@@ -41,3 +41,8 @@ else:
     print("Loop completed without break.")
 # Review of Python Basics
 print("Loop module loaded.")
+
+#if not
+x = 10
+if not x < 5:
+    print("x is not less than 5")
