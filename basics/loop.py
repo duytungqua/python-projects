@@ -31,3 +31,13 @@ for i in range (5):
     print("i =", i)
 else:
     print("Loop completed without break.")  
+
+#continue with else
+for i in range(5):
+    if i % 2 == 0:
+        continue
+    print("Odd i =", i)
+else:
+    print("Loop completed without break.")
+# Review of Python Basics
+print("Loop module loaded.")
