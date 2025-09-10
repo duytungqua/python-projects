@@ -21,3 +21,13 @@ while count < 3:
     count += 1
 else:
     print("Loop ended normally.")   
+
+
+#break with else
+for i in range (5):
+    if i == 3:
+        print("Breaking the loop at i =", i)
+        break
+    print("i =", i)
+else:
+    print("Loop completed without break.")  
