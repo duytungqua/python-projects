@@ -47,6 +47,9 @@ x = 10
 if not x < 5:
     print("x is not less than 5")
 
+#pass: a placeholder help your code run without error and preprare for future code
+for i in range(5):
+    pass  # Placeholder for future code
 # --- IGNORE ---   
 """
  --- IGNORE ---
