@@ -1,22 +1,9 @@
-
-def greet():
-    return "Hello from func.py!"
-
-def add(a, b):
+def add (a, b):
     return a + b
 
-greet()
-add(3, 4)
+def multi(a , b):
+    return a, b
 
-#Default function parameters
-def power(base, exponent = 2):
-    return base ** exponent
-power(3)
-power(2, 3)
 
-#lambda function
-square = lambda x: x * x
-square(5)
-
-# Review of Python Basics
-print("Function module loaded.")
+print(add (3, 4))
+print(multi(3, 4))
