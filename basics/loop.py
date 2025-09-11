@@ -42,7 +42,13 @@ else:
 # Review of Python Basics
 print("Loop module loaded.")
 
-#if not
+#if not <=> !(java)
 x = 10
 if not x < 5:
     print("x is not less than 5")
+
+# --- IGNORE ---   
+"""
+ --- IGNORE ---
+ Loop Examples
+"""
