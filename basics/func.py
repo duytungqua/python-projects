@@ -7,3 +7,7 @@ def multi(a , b):
 
 print(add (3, 4))
 print(multi(3, 4))
+
+#Default parameter
+def greet(name = "Guest"):
+    return f"Hello, {name}!"
