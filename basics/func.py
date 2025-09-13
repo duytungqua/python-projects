@@ -17,3 +17,11 @@ def create_user(name, age, active=True):
 create_user("Alice", True, 30)   # ❌ Wrong: active=True, age=30
 create_user(name = "Alice", age = 30)  # ✅ Correct
 create_user(age = 30, name = "Alice")  # ✅ Correct
+
+print(greet())          # Uses default parameter
+print(greet("Bob"))     # Overrides default parameter
+
+#keyword arguments
+def describe_person(name, age, city):
+    return f"{name} is {age} years old and lives in {city}."
+print(describe_person(age=25, name="Alice", city="New York"))
