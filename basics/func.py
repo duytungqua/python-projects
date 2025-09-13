@@ -25,3 +25,10 @@ print(greet("Bob"))     # Overrides default parameter
 def describe_person(name, age, city):
     return f"{name} is {age} years old and lives in {city}."
 print(describe_person(age=25, name="Alice", city="New York"))
+
+#recursion function
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial(n - 1)
