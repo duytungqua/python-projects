@@ -32,3 +32,7 @@ def factorial(n):
         return 1
     else:
         return n * factorial(n - 1)
+    
+#lambda function: lambda arguments: expression
+square = lambda x: x * x
+print(square(5))
