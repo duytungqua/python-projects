@@ -36,3 +36,6 @@ def factorial(n):
 #lambda function: lambda arguments: expression
 square = lambda x: x * x
 print(square(5))
+
+full_name  = lambda f_name, l_name: f"{f_name} {l_name}"
+print(full_name("John", "Doe"))
