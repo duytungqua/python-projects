@@ -23,4 +23,4 @@ fruits.pop(0) #remove first element
 print(fruits)
 
 fruits.insert(0, "kiwi") #add kiwi to first position
-fruits.remove(""banana") #remove banana by value
+fruits.remove("banana") #remove banana by value
