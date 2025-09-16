@@ -19,3 +19,10 @@ fruits = ("apple", "banana", "cherry")
 print(green) #apple
 print(yellow) #banana
 print(red) #cherry  
+
+#Can you assign a new tuple to a variable that references a tuple?
+# Use tuple to prevent change a list
+thistuple = ("kiwi", "orange")
+emptytuple = ()
+emptytuple = thistuple
+print(emptytuple) #('kiwi', 'orange')
