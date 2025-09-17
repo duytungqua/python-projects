@@ -21,5 +21,14 @@ tuple.sort()
 print("Sorted Tuple List:", tuple)
 
 #number tuple list
-tuple = (1, 6, 9, 4, 2)
-sorted_tuple = tuple(sorted(tuple))
+tuple_1 = (1, 6, 9, 4, 2)
+sorted_tuple = sorted(tuple_1)
+print("Sorted Tuple:", sorted_tuple)
+
+#lambda with sort: lambda arguments: expression
+company = [("Google", 200), ("Apple", 450), ("Microsoft", 300)]
+company.sort(key = lambda company: company[0]) #sort by first element
+print("Sorted Company List:", company)
+company.sort(key = lambda company: company[1]) #sort by second element
+
+print("Sorted Company List:", company)
