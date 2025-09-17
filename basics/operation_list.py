@@ -15,3 +15,11 @@ print("Sorted Numbers:", numbers)
 words = ["apple", "banana", "cherry", "date"]
 words.sort(key=len)  # Sort by length of the word
 print("Words sorted by length:", words)
+#sort tuple list
+tuple = [(1, 'banana'), (3, 'apple'), (2, 'cherry')]
+tuple.sort()
+print("Sorted Tuple List:", tuple)
+
+#number tuple list
+tuple = (1, 6, 9, 4, 2)
+sorted_tuple = tuple(sorted(tuple))
