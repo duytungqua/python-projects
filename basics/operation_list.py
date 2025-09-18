@@ -32,3 +32,8 @@ print("Sorted Company List:", company)
 company.sort(key = lambda company: company[1]) #sort by second element
 
 print("Sorted Company List:", company)
+#sort dictionary
+my_dict = {'apple': 3, 'banana': 1, 'cherry': 2}
+sorted_dict = dict(sorted(my_dict.items()))
+print("Sorted Dictionary:", sorted_dict)
+#sort dictionary by value
