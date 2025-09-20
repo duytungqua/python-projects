@@ -40,3 +40,14 @@ print("Sorted Dictionary:", sorted_dict)
 
 sorted_dict_by_value = dict(sorted(my_dict.items(), key=lambda item: item[1]))
 print("Sorted Dictionary by Value:", sorted_dict_by_value)
+
+#slice in list lst = [start: end:]
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+slice_lst = lst[-3:]
+retrieve = lst[::4]
+lst.sort(reverse=True)
+reverse_lst = lst[::-1]
+print("Sliced List:", slice_lst)
+print("Retrieve every second element:", retrieve)
+print("Sorted List in Descending Order:", lst)
+print("Reversed List:", reverse_lst)
