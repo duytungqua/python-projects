@@ -37,3 +37,6 @@ my_dict = {'apple': 3, 'banana': 1, 'cherry': 2}
 sorted_dict = dict(sorted(my_dict.items()))
 print("Sorted Dictionary:", sorted_dict)
 #sort dictionary by value
+
+sorted_dict_by_value = dict(sorted(my_dict.items(), key=lambda item: item[1]))
+print("Sorted Dictionary by Value:", sorted_dict_by_value)
