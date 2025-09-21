@@ -51,3 +51,9 @@ print("Sliced List:", slice_lst)
 print("Retrieve every second element:", retrieve)
 print("Sorted List in Descending Order:", lst)
 print("Reversed List:", reverse_lst)
+
+#substiuting a part of list 
+lst[2:5] = [10, 11, 12]
+print("List after substitution:", lst)
+
+#copy list
