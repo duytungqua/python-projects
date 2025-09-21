@@ -56,4 +56,10 @@ print("Reversed List:", reverse_lst)
 lst[2:5] = [10, 11, 12]
 print("List after substitution:", lst)
 
-#copy list
+#partial replacement and resize
+new_lst = [1, 2, 3, 4, 5]
+new_lst[1:4] = [20, 30]  # Replace elements at
+print("List after partial replacement and resize:", new_lst)
+new_lst[1:3] = [8, 9, 7, 6]  # Replace elements at index 1 and 2 with four new elements
+print("List after expanding elements:", new_lst)
+
