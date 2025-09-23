@@ -17,3 +17,7 @@ a, b, *new_lst = lst
 print(a)        # 1
 print(b)        # 2
 print(new_lst)  # [3, 4, 5]
+*a, b, c = lst
+print(a)        # [1, 2, 3]
+print(b)        # 4
+print(c)        # 5
