@@ -16,3 +16,10 @@ while i < 5:
 for index, city in enumerate(cities):
     print(f"Index: {index}, City: {city}")
 
+#nested loops
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
